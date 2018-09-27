@@ -36,6 +36,11 @@ public class BlackJack
      * from the deck.  You do not need to modify these methods.
      */
     
+    /**
+     * Used to get the bet ammount (int) from the user
+     * Further, caputures the return key being pressed so further scan events work.
+     * @return: Bet Amount
+     */
     public int getBet() {
             int amount = 0;
             System.out.println("What amount would you like to bet?");
