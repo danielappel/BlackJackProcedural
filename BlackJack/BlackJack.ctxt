@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BlackJack()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ BlackJack\n
+comment1.params=
+comment1.target=void\ playGame()
+comment1.text=\n\ Implements\ the\ game\ mechanics\ of\ blackJack\ for\ two\ players\n
+comment2.params=
+comment2.target=void\ initializeDeck()
+comment2.text=\n\ Uses\ a\ list\ of\ card\ values.\ \ Where\ the\ ACE\ is\ set\ to\ 11\ to\ poplulate\ an\ arraylist\n\ with\ the\ correct\ distribution\ of\ cards\ and\ values\n
+comment3.params=
+comment3.target=int\ dealCard()
+comment3.text=\n\ Randomly\ deals\ a\ card\ from\ the\ deck\ (based\ on\ deck\ size)\n\ @return\:\ \ int\ from\ possible\ card\ values.\ \ Ace\ will\ be\ 11\n
+comment4.params=
+comment4.target=void\ resetDeck()
+comment4.text=\n\ Creates\ a\ new\ (empty)\ arrayList\ to\ hold\ card\ values.\ \ It\ will\ then\ use\ the\ initialize\n\ deck\ method\ to\ get\ 52\ cards\ with\ the\ correct\ numeric\ distribution\n
+comment5.params=
+comment5.target=void\ printDeck()
+comment5.text=\n\ Used\ to\ visually\ check\ what\ cards\ are\ in\ the\ deck.\ \ Not\ needed\ for\ game\ implementation\n
+numComments=6
