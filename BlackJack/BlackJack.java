@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Simple Procedural BlackJack Game 
@@ -8,6 +9,7 @@ public class BlackJack
 {
     // instance variables - accessible by all methods
     ArrayList<Integer> deck = new ArrayList<Integer>();
+    Scanner scan = new Scanner(System.in);
     
 
     /**
@@ -33,6 +35,18 @@ public class BlackJack
      * Below are helper methods to simulate a deck of cards and dealing a random card
      * from the deck.  You do not need to modify these methods.
      */
+    
+    public int getBet() {
+            int amount = 0;
+            System.out.println("What amount would you like to bet?");
+            amount = scan.nextInt();
+            
+            //Need to capture return key being pressed
+            System.out.println("");
+            String trash = scan.nextLine(); //clears scanner input screen
+            
+            return amount;
+    }
     
     /**
      * Uses a list of card values.  Where the ACE is set to 11 to poplulate an arraylist
